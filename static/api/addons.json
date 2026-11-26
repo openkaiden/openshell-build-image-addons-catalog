@@ -2,6 +2,10 @@
   "addons": [
     {
       "name": "claude",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
       "displayName": "Claude Code",
       "category": "agents",
       "description": "Claude Code CLI with the Claude Agent ACP adapter.",
@@ -11,6 +15,10 @@
     },
     {
       "name": "codex",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
       "displayName": "Codex",
       "category": "agents",
       "description": "OpenAI Codex CLI with the Codex ACP adapter.",
@@ -20,6 +28,10 @@
     },
     {
       "name": "opencode",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
       "displayName": "OpenCode",
       "category": "agents",
       "description": "OpenCode AI coding agent CLI.",
@@ -32,6 +44,10 @@
     },
     {
       "name": "git",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
       "displayName": "Git",
       "category": "devtools",
       "description": "Statically linked Git with HTTPS support and a bundled CA certificate bundle; works on glibc and musl bases.",
@@ -41,6 +57,10 @@
     },
     {
       "name": "github-cli",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
       "displayName": "GitHub CLI",
       "category": "devtools",
       "description": "Statically linked GitHub CLI (gh).",
@@ -50,6 +70,10 @@
     },
     {
       "name": "pnpm",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
       "displayName": "pnpm",
       "category": "devtools",
       "description": "pnpm package manager native binary, with a pnpx launcher.",
@@ -59,6 +83,10 @@
     },
     {
       "name": "node-24",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
       "displayName": "Node.js 24",
       "category": "runtimes",
       "description": "Node.js 24 runtime with npm, npx, Corepack and headers for native modules.",
