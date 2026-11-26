@@ -1,0 +1,101 @@
+{
+  "addons": [
+    {
+      "name": "claude",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
+      "displayName": "Claude Code",
+      "category": "agents",
+      "description": "Claude Code CLI with the Claude Agent ACP adapter.",
+      "icon": "icons/claude.svg",
+      "version": "2.1.286",
+      "image": "ghcr.io/openkaiden/openshell-build-image-addons-claude@sha256:eb2d6a6776abe277e58deb38ecd24c48b601ce11bd0f4a1569b9f17fb394bb9c"
+    },
+    {
+      "name": "codex",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
+      "displayName": "Codex",
+      "category": "agents",
+      "description": "OpenAI Codex CLI with the Codex ACP adapter.",
+      "icon": "icons/codex.svg",
+      "version": "0.159.3",
+      "image": "ghcr.io/openkaiden/openshell-build-image-addons-codex@sha256:0112e640b61bcb9ae726a7b5578515d16b8a04f60c94799e0676a7630a96ddc7"
+    },
+    {
+      "name": "opencode",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
+      "displayName": "OpenCode",
+      "category": "agents",
+      "description": "OpenCode AI coding agent CLI.",
+      "icon": {
+        "light": "icons/opencode-light.svg",
+        "dark": "icons/opencode-dark.svg"
+      },
+      "version": "2.2.5",
+      "image": "ghcr.io/openkaiden/openshell-build-image-addons-opencode@sha256:373c0a5ca2a1a520d5e423bc82b950703a3da8e70078ce65598b30b243af7eb5"
+    },
+    {
+      "name": "git",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
+      "displayName": "Git",
+      "category": "devtools",
+      "description": "Statically linked Git with HTTPS support and a bundled CA certificate bundle; works on glibc and musl bases.",
+      "icon": "icons/git.svg",
+      "version": "2.56.1",
+      "image": "ghcr.io/openkaiden/openshell-build-image-addons-git@sha256:efa2924685b0108e9e6d3a0b88172c0243dded4602491a9343919f4855dbeccb"
+    },
+    {
+      "name": "github-cli",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
+      "displayName": "GitHub CLI",
+      "category": "devtools",
+      "description": "Statically linked GitHub CLI (gh).",
+      "icon": "icons/github-cli.svg",
+      "version": "2.103.3",
+      "image": "ghcr.io/openkaiden/openshell-build-image-addons-github-cli@sha256:b00e623502df794a1cbbcf0534124135947714ca0e06f3bed85ce9e90b582125"
+    },
+    {
+      "name": "pnpm",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
+      "displayName": "pnpm",
+      "category": "devtools",
+      "description": "pnpm package manager native binary, with a pnpx launcher.",
+      "icon": "icons/pnpm.svg",
+      "version": "12.21.0",
+      "image": "ghcr.io/openkaiden/openshell-build-image-addons-pnpm@sha256:1f6e4c5f26e382f0e76656e8d33d2d0f27c8fa2bc75281fd34cc162129555674"
+    },
+    {
+      "name": "node-24",
+      "publisher": {
+        "name": "kaiden",
+        "displayName": "Kaiden"
+      },
+      "displayName": "Node.js 24",
+      "category": "runtimes",
+      "description": "Node.js 24 runtime with npm, npx, Corepack and headers for native modules.",
+      "icon": {
+        "light": "icons/node-24-light.svg",
+        "dark": "icons/node-24-dark.svg"
+      },
+      "version": "24.22.3",
+      "image": "ghcr.io/openkaiden/openshell-build-image-addons-node-24@sha256:e81907d619afc61ce88ab41b7828de754521b2ede7e13b33504889bed8447ead"
+    }
+  ]
+}
